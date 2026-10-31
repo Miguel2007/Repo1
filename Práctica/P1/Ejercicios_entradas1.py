@@ -1,0 +1,10 @@
+nombre=input("Introduzca su nombre: ")
+print("Hola", nombre)
+edad=input("Introduzca su edad: ")
+print("Tienes", edad, "años")
+ciudad=input("Introduzca su ciudad: ")
+print("Vives en ", ciudad)
+num1=int(input("Introduce el primer número: "))
+num2=int(input("Introduce el segundo número: "))
+sum= num1 + num2
+print("El resultado es ", sum)

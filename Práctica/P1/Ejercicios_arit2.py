@@ -1,0 +1,15 @@
+num1 = float (input ("Introduce un número para el cálculo: "))
+print(num1 * 3)
+num2 = float (input ("Introduce el primer número para la suma: "))
+num3 = float (input ("Introduce el segundo número para la suma: "))
+print ("La suma es:", num2 + num3)
+num4 = float (input ("Introduce el primer número para la resta: "))
+num5 = float (input ("Introduce el segundo número para la resta: "))
+print (num4 - num5)
+prod = float (input ("Introduzca la cantidad de productos: "))
+price = float (input ("Introduzca el precio por unidad: "))
+print("El total es", prod * price)
+num6 = float (input ("Introduzca el número para calcular el cuadrado y su raíz: "))
+cuad = num6**2
+root = num6**0.5
+print("El cuadrado es:", cuad, "y su raíz:", root)
